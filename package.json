@@ -1,0 +1,17 @@
+{
+  "name": "env_encryption_tool_nodejs_server",
+  "version": "1.0.0",
+  "description": "env_encryption_tool_nodejs_server",
+  "main": "server.js",
+  "author": "Chris Butler",
+  "devDependencies": {
+    "eslint": "^9.27.0"
+  },
+  "eslintConfig": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+
+  }
+}
