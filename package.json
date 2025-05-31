@@ -11,7 +11,7 @@
   "eslintConfig": {},
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
 
