@@ -2,7 +2,7 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 
-module.exports = function() {
+module.exports = function decryptConfig() {
     try {
         const algorithm = 'aes-256-gcm';
         const secretKey = process.env.DECRYPTION_KEY;
@@ -21,7 +21,6 @@ module.exports = function() {
         const decryptedData = Buffer.concat([decipher.update(encryptedData), decipher.final()]);
         const decryptedString = decryptedData.toString('utf8');
 
-        // Set environment variables
         decryptedString.split('\n').forEach(line => {
             if (line) {
                 const [key, ...valueParts] = line.split('=');
