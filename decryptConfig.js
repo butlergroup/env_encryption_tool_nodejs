@@ -4,28 +4,31 @@ const path = require('path');
 
 module.exports = function() {
     try {
-        const algorithm = 'aes-256-ctr';
+        const algorithm = 'aes-256-gcm';
         const secretKey = process.env.DECRYPTION_KEY;
         const encryptedFilePath = path.join(__dirname, 'env.enc');
 
         const fileContent = fs.readFileSync(encryptedFilePath, 'utf8');
-        const [iv, encryptedData] = fileContent.split(':');
+        const [ivHex, authTagHex, encryptedHex] = fileContent.split(':');
 
-        const decipher = crypto.createDecipheriv(algorithm, secretKey, Buffer.from(iv, 'hex'));
-        const decryptedData = Buffer.concat([decipher.update(Buffer.from(encryptedData, 'hex')), decipher.final()]);
-        const decryptedString = decryptedData.toString();
+        const iv = Buffer.from(ivHex, 'hex');
+        const authTag = Buffer.from(authTagHex, 'hex');
+        const encryptedData = Buffer.from(encryptedHex, 'hex');
 
-        const lines = decryptedString.split('\n');
-        lines.forEach(line => {
+        const decipher = crypto.createDecipheriv(algorithm, Buffer.from(secretKey, 'utf8'), iv);
+        decipher.setAuthTag(authTag);
+
+        const decryptedData = Buffer.concat([decipher.update(encryptedData), decipher.final()]);
+        const decryptedString = decryptedData.toString('utf8');
+
+        // Set environment variables
+        decryptedString.split('\n').forEach(line => {
             if (line) {
                 const [key, ...valueParts] = line.split('=');
                 let value = valueParts.join('=').trim();
-                
-                // Remove quotes if they exist
                 if (value.startsWith('"') && value.endsWith('"')) {
-                    value = value.substring(1, value.length - 1);
+                    value = value.slice(1, -1);
                 }
-
                 if (key && value) {
                     process.env[key.trim()] = value;
                 }
