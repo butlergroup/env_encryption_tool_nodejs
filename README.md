@@ -1,3 +1,9 @@
+[![CodeQL](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/github-code-scanning/codeql)
+![Static Badge](https://img.shields.io/badge/Snyk%20Security-Monitored-purple?link=https%3A%2F%2Fapp.snyk.io%2Fshare%2F784f6fef-6aaf-47ed-81ba-99e05b854665)
+[![Feature Requests](https://img.shields.io/github/issues/butlergroup/env_encryption_tool_nodejs/feature-request.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
+[![Bugs](https://img.shields.io/github/issues/butlergroup/env_encryption_tool_nodejs/bug.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+
+
 ## env_encryption_tool_nodejs :copyright: Project Goals & Info
 
 **Purpose**: the goal for this project is to encrypt .env files for a given Node.js application and store them in an encrypted state, then decrypt them at runtime using an OS-based environment variable and pass them to the application. This requires any potential/illicit attacker to breach the operating system's security and access its environment variables before any application-level environment variables can be compromised. 
