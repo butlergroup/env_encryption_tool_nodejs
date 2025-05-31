@@ -5,13 +5,19 @@
   "main": "server.js",
   "author": "Chris Butler",
   "devDependencies": {
-    "eslint": "^9.28.0"
+    "eslint": "^9.28.0",
+    "jest": "^29.7.0"
   },
   "eslintConfig": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "dependencies": {
 
+  },
+  "overrides": {
+    "glob": "^11.0.2",
+    "inflight": "lru-cache@^11.1.0"
   }
 }
