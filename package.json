@@ -12,7 +12,7 @@
   "eslintConfig": {},
   "scripts": {
     "start": "node server.js",
-    "test": "c8 jest"
+    "test": "c8 --reporter=lcov --reporter=text jest"
   },
   "overrides": {
     "glob": "^11.0.2",
