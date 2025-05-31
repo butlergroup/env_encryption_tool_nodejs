@@ -1,6 +1,6 @@
 [![CodeQL](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/github-code-scanning/codeql)
-[![Snyk Security-Monitored](https://img.shields.io/badge/Snyk%20Security-Monitored-purple)](https://app.snyk.io/share/784f6fef-6aaf-47ed-81ba-99e05b854665)
 [![Node.js CI](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/node.js.yml/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/node.js.yml)
+[![Snyk Security-Monitored](https://img.shields.io/badge/Snyk%20Security-Monitored-purple)](https://app.snyk.io/share/784f6fef-6aaf-47ed-81ba-99e05b854665)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10677/badge)](https://www.bestpractices.dev/projects/10677)
 [![Scorecard supply-chain security](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/scorecard.yml/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/scorecard.yml)
 [![Coverage Status](https://coveralls.io/repos/github/butlergroup/env_encryption_tool_nodejs/badge.svg?branch=main)](https://coveralls.io/github/butlergroup/env_encryption_tool_nodejs?branch=main)
