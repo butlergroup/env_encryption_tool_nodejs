@@ -15,7 +15,7 @@
     "test": "c8 --reporter=lcov --reporter=text jest"
   },
   "overrides": {
-    "brace-expansion": "^4.0.1",
+    "brace-expansion": "^2.0.2",
     "glob": "^11.0.3",
     "inflight": "lru-cache@^11.1.0"
   }
