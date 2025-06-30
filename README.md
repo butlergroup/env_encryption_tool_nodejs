@@ -56,3 +56,7 @@ Please also read our [Privacy Policy](https://github.com/butlergroup/env_encrypt
 ## Contact
 
 Have questions or suggestions? Reach out to us at welcome@butlergroup.net. Thank you and happy coding! :)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=butlergroup/env_encryption_tool_nodejs&type=Date)](https://www.star-history.com/#butlergroup/env_encryption_tool_nodejs&Date)
