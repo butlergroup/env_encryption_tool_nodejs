@@ -7,7 +7,6 @@
 # nodejsscan is a static security code scanner that finds insecure code patterns in your Node.js applications
 
 name: njsscan sarif
-
 on:
   push:
     branches: [ "main" ]
@@ -16,10 +15,11 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '32 3 * * 4'
-
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
-
 jobs:
   njsscan:
     permissions:
