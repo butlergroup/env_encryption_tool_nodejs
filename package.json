@@ -12,13 +12,14 @@
   "eslintConfig": {},
   "scripts": {
     "start": "node server.js",
-    "test": "NODE_OPTIONS=--experimental-default-type=commonjs c8 --reporter=lcov --reporter=text jest"
+    "test": "c8 --reporter=lcov --reporter=text jest"
   },
   "overrides": {
     "brace-expansion": "^5.0.4",
     "glob": "^13.0.6",
     "inflight": "latest",
     "js-yaml": "^4.1.1",
-    "minimatch": "^10.2.4"
+    "minimatch": "^10.2.4",
+    "yargs": "^18.0.0"
   }
 }
