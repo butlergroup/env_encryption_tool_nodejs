@@ -20,6 +20,6 @@
     "inflight": "latest",
     "js-yaml": "^4.1.1",
     "minimatch": "^10.2.4",
-    "yargs": "^18.0.0"
+    "yargs": "17.7.2"
   }
 }
