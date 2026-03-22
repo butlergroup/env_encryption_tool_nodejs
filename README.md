@@ -1,5 +1,6 @@
 [![CodeQL](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/github-code-scanning/codeql)
 [![Node.js CI](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/node.js.yml/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/node.js.yml)
+[![Dependabot Updates](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/dependabot/dependabot-updates)
 [![njsscan sarif](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/njsscan.yml/badge.svg)](https://github.com/butlergroup/env_encryption_tool_nodejs/actions/workflows/njsscan.yml)
 [![Snyk Security-Monitored](https://img.shields.io/badge/Snyk%20Security-Monitored-purple)](https://app.snyk.io/share/784f6fef-6aaf-47ed-81ba-99e05b854665)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10677/badge)](https://www.bestpractices.dev/projects/10677)
