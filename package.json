@@ -1,12 +1,12 @@
 {
   "name": "env_encryption_tool_nodejs_server",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "env_encryption_tool_nodejs_server",
   "main": "server.js",
   "author": "Chris Butler",
   "devDependencies": {
     "nyc": "^18.0.0",
-    "eslint": "^10.1.0",
+    "eslint": "^10.2.0",
     "jest": "^30.3.0"
   },
   "eslintConfig": {},
@@ -19,6 +19,6 @@
     "glob": "^13.0.6",
     "inflight": "latest",
     "js-yaml": "^4.1.1",
-    "minimatch": "^10.2.4"
+    "minimatch": "^10.2.5"
   }
 }
