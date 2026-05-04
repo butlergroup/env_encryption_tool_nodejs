@@ -1,10 +1,23 @@
-## Version 0.9.9 
+## Version 0.9.10 
 
 #### New Features
 
 
 #### Improvements
 
+
+#### Fixes
+
+
+---
+
+## Version 0.9.9 (05-04-2026)
+
+#### New Features
+
+
+#### Improvements
+- bump eslint from 10.2.1 to 10.3.0
 
 #### Fixes
 

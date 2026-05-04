@@ -3,7 +3,10 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 name: Dependabot auto-merge
-on: pull_request
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: write
