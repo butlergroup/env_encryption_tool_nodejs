@@ -7,7 +7,7 @@
   "devDependencies": {
     "nyc": "^18.0.0",
     "eslint": "^10.3.0",
-    "jest": "^30.4.1"
+    "jest": "^30.4.2"
   },
   "eslintConfig": {},
   "scripts": {
