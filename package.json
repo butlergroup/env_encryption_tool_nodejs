@@ -1,6 +1,6 @@
 {
   "name": "env_encryption_tool_nodejs_server",
-  "version": "0.9.10",
+  "version": "0.9.11",
   "description": "env_encryption_tool_nodejs_server",
   "main": "server.js",
   "author": "Chris Butler",

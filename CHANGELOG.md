@@ -4,7 +4,7 @@
 
 
 #### Improvements
-
+- updated package.json dependencies to latest
 
 #### Fixes
 
