@@ -36,6 +36,11 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
+
+      - name: Trust Coveralls Homebrew tap (Homebrew 6 requirement)
+        if: runner.os == 'macOS'
+        run: brew trust coverallsapp/coveralls
+
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b # v2.3.6
         env:
