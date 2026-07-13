@@ -1,6 +1,6 @@
 {
   "name": "env_encryption_tool_nodejs_server",
-  "version": "0.9.11",
+  "version": "0.9.13",
   "description": "env_encryption_tool_nodejs_server",
   "main": "server.js",
   "author": "Chris Butler",
@@ -15,10 +15,10 @@
     "test": "nyc --reporter=lcov --reporter=text jest"
   },
   "overrides": {
-    "brace-expansion": "^5.0.6",
+    "brace-expansion": "^5.0.7",
     "glob": "^13.0.6",
     "inflight": "latest",
-    "js-yaml": "^5.1.0",
+    "js-yaml": "^5.2.1",
     "uuid": "latest",
     "minimatch": "^10.2.5"
   }

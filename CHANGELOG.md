@@ -1,10 +1,22 @@
 # env_encryption_tool_nodejs package
 
-## Version 0.9.13
+## Version 0.9.14
 
 #### New Features
 
 #### Improvements
+
+#### Fixes
+
+---
+
+## Version 0.9.13 (07-13-2026)
+
+#### New Features
+
+#### Improvements
+
+- updated package.json dependencies to latest
 
 #### Fixes
 
