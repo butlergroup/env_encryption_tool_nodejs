@@ -1,6 +1,6 @@
 {
   "name": "env_encryption_tool_nodejs_server",
-  "version": "0.9.13",
+  "version": "0.9.14",
   "description": "env_encryption_tool_nodejs_server",
   "main": "server.js",
   "author": "Chris Butler",
@@ -19,7 +19,7 @@
     "glob": "^13.0.6",
     "inflight": "latest",
     "js-yaml": "^5.2.1",
-    "uuid": "latest",
+    "uuid": "^14.0.1",
     "minimatch": "^10.2.5"
   }
 }
