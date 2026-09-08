@@ -6,7 +6,7 @@
   "author": "Chris Butler",
   "devDependencies": {
     "nyc": "^18.0.0",
-    "eslint": "^10.9.1",
+    "eslint": "^10.10.0",
     "jest": "^30.5.1"
   },
   "eslintConfig": {},
